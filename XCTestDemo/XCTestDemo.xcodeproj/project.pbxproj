@@ -48,6 +48,7 @@
 		339A41531ED691D3005170B2 /* TableValidationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableValidationTests.m; sourceTree = "<group>"; };
 		339A41551ED69202005170B2 /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
 		339A41561ED69202005170B2 /* Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
+		339A41A51ED6DE72005170B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 				339A412A1ED678D0005170B2 /* XCTestDemo */,
 				339A414A1ED682E3005170B2 /* XCDemoTests */,
 				339A41291ED678D0005170B2 /* Products */,
+				339A41A41ED6DE71005170B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +124,14 @@
 				339A414D1ED682E3005170B2 /* Info.plist */,
 			);
 			path = XCDemoTests;
+			sourceTree = "<group>";
+		};
+		339A41A41ED6DE71005170B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				339A41A51ED6DE72005170B2 /* XCTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

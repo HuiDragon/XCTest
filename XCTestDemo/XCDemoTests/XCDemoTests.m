@@ -178,6 +178,43 @@
 
 }
 
+- (void)testFail{
+    
+    //生成一个失败测试
+    XCTFail();
+    
+}
+
+//@define XCTAssertNil(expression, ...)
+//Generates a failure when ((\a expression) != nil).
+- (void)testAssertNil {
+    
+    //被测试对象为空，测试通过
+    NSObject *obj = nil;
+    XCTAssertNil(obj,"obj不为空，测试失败！");
+
+}
+
+//@define XCTAssertNotNil(expression, ...)
+//Generates a failure when ((\a expression) == nil).
+- (void)testAssertNotNil {
+    
+    NSObject *obj = nil;
+    obj = [NSObject new];
+    XCTAssertNotNil(obj,"obj为空，测试失败！");
+}
+//@define XCTAssert(expression, ...)
+//Generates a failure when ((\a expression) == false).
+- (void)testAssert {
+    
+    XCTAssert(true ,"表达式不为TRUE，测试失败");
+}
+
+- (void)testAssertTrue {
+
+    XCTAssertTrue(true,"表达式不为TRUE，测试失败");
+    
+}
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{
