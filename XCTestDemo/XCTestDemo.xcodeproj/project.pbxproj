@@ -15,6 +15,8 @@
 		339A413B1ED678D0005170B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339A41391ED678D0005170B2 /* LaunchScreen.storyboard */; };
 		339A41441ED67DEA005170B2 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 339A41431ED67DEA005170B2 /* Calculator.m */; };
 		339A414C1ED682E3005170B2 /* XCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 339A414B1ED682E3005170B2 /* XCDemoTests.m */; };
+		339A41541ED691D3005170B2 /* TableValidationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 339A41531ED691D3005170B2 /* TableValidationTests.m */; };
+		339A41571ED69202005170B2 /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 339A41561ED69202005170B2 /* Table.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		339A41491ED682E3005170B2 /* XCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		339A414B1ED682E3005170B2 /* XCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCDemoTests.m; sourceTree = "<group>"; };
 		339A414D1ED682E3005170B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339A41531ED691D3005170B2 /* TableValidationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableValidationTests.m; sourceTree = "<group>"; };
+		339A41551ED69202005170B2 /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		339A41561ED69202005170B2 /* Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,8 @@
 				339A41321ED678D0005170B2 /* ViewController.m */,
 				339A41421ED67DEA005170B2 /* Calculator.h */,
 				339A41431ED67DEA005170B2 /* Calculator.m */,
+				339A41551ED69202005170B2 /* Table.h */,
+				339A41561ED69202005170B2 /* Table.m */,
 				339A41341ED678D0005170B2 /* Main.storyboard */,
 				339A41371ED678D0005170B2 /* Assets.xcassets */,
 				339A41391ED678D0005170B2 /* LaunchScreen.storyboard */,
@@ -110,6 +117,7 @@
 		339A414A1ED682E3005170B2 /* XCDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				339A41531ED691D3005170B2 /* TableValidationTests.m */,
 				339A414B1ED682E3005170B2 /* XCDemoTests.m */,
 				339A414D1ED682E3005170B2 /* Info.plist */,
 			);
@@ -223,6 +231,7 @@
 				339A41331ED678D0005170B2 /* ViewController.m in Sources */,
 				339A41441ED67DEA005170B2 /* Calculator.m in Sources */,
 				339A41301ED678D0005170B2 /* AppDelegate.m in Sources */,
+				339A41571ED69202005170B2 /* Table.m in Sources */,
 				339A412D1ED678D0005170B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				339A414C1ED682E3005170B2 /* XCDemoTests.m in Sources */,
+				339A41541ED691D3005170B2 /* TableValidationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +434,7 @@
 				339A41411ED678D0005170B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		339A41501ED682E3005170B2 /* Build configuration list for PBXNativeTarget "XCDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +443,7 @@
 				339A41521ED682E3005170B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
