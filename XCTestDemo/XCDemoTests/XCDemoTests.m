@@ -60,10 +60,10 @@
 
     // perform two subtraction tests
     
-    [calcViewController press:[calcView viewWithTag:1]]; // 6
-    [calcViewController press:[calcView viewWithTag:8]]; // 6
+    [calcViewController press:[calcView viewWithTag:1]]; // 1
+    [calcViewController press:[calcView viewWithTag:8]]; // 8
     [calcViewController press:[calcView viewWithTag:14]];// -
-    [calcViewController press:[calcView viewWithTag:8]]; // 4
+    [calcViewController press:[calcView viewWithTag:8]]; // 8
     [calcViewController press:[calcView viewWithTag:12]];// =
     
     XCTAssertEqualObjects(calcViewController.displayField.text, @"10",@"Part1 failed");

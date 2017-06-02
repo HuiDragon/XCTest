@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		333524351EDEB83900F647FD /* XCTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333524341EDEB83900F647FD /* XCTestUITests.m */; };
+		334F8E081EE1084B003FAB31 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334F8E071EE1084B003FAB31 /* CalculatorTests.m */; };
 		339A412D1ED678D0005170B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 339A412C1ED678D0005170B2 /* main.m */; };
 		339A41301ED678D0005170B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 339A412F1ED678D0005170B2 /* AppDelegate.m */; };
 		339A41331ED678D0005170B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 339A41321ED678D0005170B2 /* ViewController.m */; };
@@ -20,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		333524371EDEB83900F647FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339A41201ED678D0005170B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339A41271ED678D0005170B2;
+			remoteInfo = XCTestDemo;
+		};
 		339A414E1ED682E3005170B2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 339A41201ED678D0005170B2 /* Project object */;
@@ -30,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		333524321EDEB83900F647FD /* XCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		333524341EDEB83900F647FD /* XCTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCTestUITests.m; sourceTree = "<group>"; };
+		333524361EDEB83900F647FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334F8E071EE1084B003FAB31 /* CalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 		339A41281ED678D0005170B2 /* XCTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		339A412C1ED678D0005170B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		339A412E1ED678D0005170B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3335242F1EDEB83900F647FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		339A41251ED678D0005170B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,11 +89,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		333524331EDEB83900F647FD /* XCTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				333524341EDEB83900F647FD /* XCTestUITests.m */,
+				333524361EDEB83900F647FD /* Info.plist */,
+			);
+			path = XCTestUITests;
+			sourceTree = "<group>";
+		};
 		339A411F1ED678D0005170B2 = {
 			isa = PBXGroup;
 			children = (
 				339A412A1ED678D0005170B2 /* XCTestDemo */,
 				339A414A1ED682E3005170B2 /* XCDemoTests */,
+				333524331EDEB83900F647FD /* XCTestUITests */,
 				339A41291ED678D0005170B2 /* Products */,
 				339A41A41ED6DE71005170B2 /* Frameworks */,
 			);
@@ -84,6 +114,7 @@
 			children = (
 				339A41281ED678D0005170B2 /* XCTestDemo.app */,
 				339A41491ED682E3005170B2 /* XCDemoTests.xctest */,
+				333524321EDEB83900F647FD /* XCTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +150,7 @@
 		339A414A1ED682E3005170B2 /* XCDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				334F8E071EE1084B003FAB31 /* CalculatorTests.m */,
 				339A41531ED691D3005170B2 /* TableValidationTests.m */,
 				339A414B1ED682E3005170B2 /* XCDemoTests.m */,
 				339A414D1ED682E3005170B2 /* Info.plist */,
@@ -137,6 +169,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		333524311EDEB83900F647FD /* XCTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3335243B1EDEB83900F647FD /* Build configuration list for PBXNativeTarget "XCTestUITests" */;
+			buildPhases = (
+				3335242E1EDEB83900F647FD /* Sources */,
+				3335242F1EDEB83900F647FD /* Frameworks */,
+				333524301EDEB83900F647FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333524381EDEB83900F647FD /* PBXTargetDependency */,
+			);
+			name = XCTestUITests;
+			productName = XCTestUITests;
+			productReference = 333524321EDEB83900F647FD /* XCTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		339A41271ED678D0005170B2 /* XCTestDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 339A413F1ED678D0005170B2 /* Build configuration list for PBXNativeTarget "XCTestDemo" */;
@@ -181,6 +231,12 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = HuiDragon;
 				TargetAttributes = {
+					333524311EDEB83900F647FD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M5XL9822J2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 339A41271ED678D0005170B2;
+					};
 					339A41271ED678D0005170B2 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = M5XL9822J2;
@@ -209,11 +265,19 @@
 			targets = (
 				339A41271ED678D0005170B2 /* XCTestDemo */,
 				339A41481ED682E3005170B2 /* XCDemoTests */,
+				333524311EDEB83900F647FD /* XCTestUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		333524301EDEB83900F647FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		339A41261ED678D0005170B2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +298,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3335242E1EDEB83900F647FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333524351EDEB83900F647FD /* XCTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		339A41241ED678D0005170B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				339A414C1ED682E3005170B2 /* XCDemoTests.m in Sources */,
+				334F8E081EE1084B003FAB31 /* CalculatorTests.m in Sources */,
 				339A41541ED691D3005170B2 /* TableValidationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +331,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		333524381EDEB83900F647FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339A41271ED678D0005170B2 /* XCTestDemo */;
+			targetProxy = 333524371EDEB83900F647FD /* PBXContainerItemProxy */;
+		};
 		339A414F1ED682E3005170B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 339A41271ED678D0005170B2 /* XCTestDemo */;
@@ -285,6 +363,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		333524391EDEB83900F647FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M5XL9822J2;
+				INFOPLIST_FILE = XCTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuiDragon.XCTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XCTestDemo;
+			};
+			name = Debug;
+		};
+		3335243A1EDEB83900F647FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M5XL9822J2;
+				INFOPLIST_FILE = XCTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HuiDragon.XCTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XCTestDemo;
+			};
+			name = Release;
+		};
 		339A413D1ED678D0005170B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,6 +530,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3335243B1EDEB83900F647FD /* Build configuration list for PBXNativeTarget "XCTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333524391EDEB83900F647FD /* Debug */,
+				3335243A1EDEB83900F647FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		339A41231ED678D0005170B2 /* Build configuration list for PBXProject "XCTestDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
